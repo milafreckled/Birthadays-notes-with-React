@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+main{
+  background-color: #762873;
+  display: flex;
+  align-items: center;
+  padding: 10% 30%;
+  
+}
+
+.myButton{
+  width: 5rem;
+  height: 3rem;
+background-color: "whitesmoke";
+margin: 5% 0;
+}
+.myLabel {
+display: block;
+font-size: 2rem;
+font-style: italic;
+} 
+.myInput{
+width: 8rem;
+height: 2rem,
+}
+.myForm{
+background-color: whitesmoke;
+position: relative;
+text-align: center;
+align-items: center;
+align-self: center;
+padding: 2vmin;
+}
+

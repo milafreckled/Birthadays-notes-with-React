@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Header, Button, Form, Icon } from 'semantic-ui-react'
+import { Header, Button, Form } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
@@ -17,17 +17,12 @@ export default function Update(){
         })
        
     }, [])
-    const putData = () => {
-        
+    const putData = () => { 
         console.log(secondName)
-        //data = JSON.parse(data.results)
-   
         let id = localStorage.getItem('ID')
         console.log(name + ' '+ secondName)
         birthdays.filter((b) => b.id === id )
         console.log(birthdays)
-      
-  
         axios.put(`https://61141e1fcba40600170c1e17.mockapi.io/birthdaysapi/birthday/${id}`, {id: id, name: name, surname: secondName, birthday: birthday});
         console.log(id)
     }
@@ -45,7 +40,7 @@ export default function Update(){
         </Form.Field>
         <Form.Field required>
                     <label className="myLabel">Updated birthday</label>
-                    <input className="myInput"type="date"  value={birthday} onChange={(e) => setBirthday(e.target.value)} placeholder="Firts Name" />
+                    <input className="myInput" type="date" value={birthday} onChange={(e) => setBirthday(e.target.value)} placeholder="Firts Name" />
                 </Form.Field>
                 <Link to="/read">
                 <Button className="myButton" disabled={name&&secondName&&birthday?false:true} onClick={() => putData()}>Update the data</Button>

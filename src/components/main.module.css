@@ -1,0 +1,78 @@
+button.ui.button{
+    background: transparent;
+    color: #fff;
+  }
+a, a:hover{
+    color: inherit;
+}
+.mainBox{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 450px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.header{
+    position: relative;
+width: 328px;
+height: 29px;
+left: 66px;
+top: 92px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+.viewBtn{
+    position: absolute;
+width: 100px;
+height: 35px;
+left: 27%;
+top: 50%;
+background: #FFFFFF;
+border: 3px solid #D94BDC;
+box-sizing: border-box;
+border-radius: 10px;
+text-align: center;
+color: #D94BDC;
+}
+.addBtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 52%;
+    top: 50%;
+    background: #D94BDC;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #fff;
+}
+.addBtn, .viewBtn{
+    outline: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    }
+    .bangSvg{
+        position: absolute;
+width: 145px;
+height: 145px;
+left: 11px;
+top: 17.69px;
+opacity: 0.6;
+transform: rotate(-1.46deg);
+    }
+    .noteSvg{
+        position: absolute;
+width: 90.06px;
+height: 87.15px;
+left: 339.19px;
+top: 79.04px;
+opacity: 0.6;
+transform: rotate(15.43deg);
+    }
+
+

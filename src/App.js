@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Create from "./components/Create";
 import Read from "./components/Read";
 import Update from "./components/Update";
 import Main from "./components/Main";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     console.log = function () {};
   }
   return (
-    <Router>
+    <Router basename="/">
       <Route exact path="/" component={Main} />
       <Route exact path="/create" component={Create} />
       <div style={{ marginTop: "20px" }}>

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/birthdays-notes/static/css/main.3299e315.css",
+    "main.js": "/birthdays-notes/static/js/main.c6bd0d26.js",
+    "static/js/787.7f89dc1b.chunk.js": "/birthdays-notes/static/js/787.7f89dc1b.chunk.js",
+    "static/media/bang.svg": "/birthdays-notes/static/media/bang.50dae80e333145321d6b0e7220c8f936.svg",
+    "static/media/note.svg": "/birthdays-notes/static/media/note.3a1e5278f612e212eee938de4a5a0b78.svg",
+    "index.html": "/birthdays-notes/index.html",
+    "main.3299e315.css.map": "/birthdays-notes/static/css/main.3299e315.css.map",
+    "main.c6bd0d26.js.map": "/birthdays-notes/static/js/main.c6bd0d26.js.map",
+    "787.7f89dc1b.chunk.js.map": "/birthdays-notes/static/js/787.7f89dc1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3299e315.css",
+    "static/js/main.c6bd0d26.js"
+  ]
+}
